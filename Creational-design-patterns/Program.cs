@@ -11,7 +11,7 @@ using Creational_design_patterns.Builder.Singleton;
 
 namespace Creational_design_patterns
 {
-
+     
     class Program
     {
         private static string _message = "";
