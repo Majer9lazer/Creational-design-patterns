@@ -16,7 +16,7 @@ namespace Creational_design_patterns
     {  
         private static string _message = "";
         static void Main(string[] args)
-        { 
+        {  
             string beginSentence = "<---";
             string finishSentence = "--->";
             Director director = new Director();
