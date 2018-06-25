@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Creational_design_patterns.Builder.Factory;
 using Creational_design_patterns.Builder.Factory.Prototype;
 
-namespace Creational_design_patterns.Builder.Factory
+namespace Creational_design_patterns.Builder
 {
     public class OriginalBurgerBuilder : BurgerBuilder
     {

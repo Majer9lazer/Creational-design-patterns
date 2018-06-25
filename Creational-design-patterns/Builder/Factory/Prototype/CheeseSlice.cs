@@ -18,8 +18,7 @@ namespace Creational_design_patterns.Builder.Factory.Prototype
 
         public override Clonable Clone(object obj)
         {
-
-            return ((CheeseSlice) obj);
+            return  (Clonable)obj;
         }
     }
 }

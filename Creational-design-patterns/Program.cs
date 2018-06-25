@@ -35,7 +35,10 @@ namespace Creational_design_patterns
                         Console.WriteLine(_message);
                         Console.WriteLine("Нажмите Enter чтобы войти в главное меню или любую другю клавищу чтобы выйти");
                         if (Console.ReadKey().Key == ConsoleKey.Enter)
+                        {
+                            Console.Clear();
                             goto beginning;
+                        }
                         Exit();
                         break;
                     }
